@@ -12,6 +12,6 @@ DESC
   s.social_media_url   = "http://twitter.com/JohnSundell"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.osx.deployment_target = "10.12"
-  s.source       = { :git => "https://github.com/JohnSundell/ShellOut.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/eugeneheckert/ShellOut.git", :tag => "#{s.version}" }
   s.source_files  = "Sources"
 end
