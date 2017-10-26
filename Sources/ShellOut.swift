@@ -364,8 +364,8 @@ private extension Process {
 
         waitUntilExit()
 
-        outputHandle?.closeFile()
-        errorHandle?.closeFile()
+        //outputHandle?.closeFile()
+        //errorHandle?.closeFile()
 
         #if !os(Linux)
         outputPipe.fileHandleForReading.readabilityHandler = nil
